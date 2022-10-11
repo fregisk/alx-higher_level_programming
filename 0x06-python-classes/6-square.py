@@ -39,5 +39,3 @@ class Square:
     def size(self, value):
         """Setter for the size private attribute"""
         if (type(value) is not int):
-
-
