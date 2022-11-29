@@ -1,8 +1,2 @@
--- Create a second_table with multiple rows
--- id INT, name VARCHAR(256), score INT
--- if it exists don't do anything
-CREATE TABLE IF NOT EXISTS `second_table` (`id` INT, `name` VARCHAR(256), score INT);
-INSERT INTO `second_table` (`id`, `name`, `score`) VALUES (1, 'John', 10);
-INSERT INTO `second_table` (`id`, `name`, `score`) VALUES (2, 'Alex', 3);
-INSERT INTO `second_table` (`id`, `name`, `score`) VALUES (3, 'Bob', 14);
-INSERT INTO `second_table` (`id`, `name`, `score`) VALUES (4, 'George', 8);
+-- Counts the number of records with id = 89
+SELECT COUNT(*) FROM first_table WHERE `id` = 89;
